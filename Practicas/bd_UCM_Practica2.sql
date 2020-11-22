@@ -125,22 +125,22 @@ CREATE TABLE Futbol_IntervienenSanciones(
 INSERT INTO Futbol_ArbSecundarios (dniArbitro, jornada, estadio)
 VALUES ('11111111A','14','Camp Nou');
 
-INSERT INTO Futbol_Personas (dni,nombre)VALUES ('11111111A','David PÈrez Pallas');
-INSERT INTO futbol_personas(dni,nombre)VALUES('22222222B','Alexandre Alem·n PÈrez');
-INSERT INTO futbol_personas(dni,nombre)VALUES('33333333C',' MoisÈs Mateo MontaÒÈs');
-INSERT INTO futbol_personas(dni,nombre)VALUES('44444444D','Adri·n DÌaz Gonz·lez');
-INSERT INTO futbol_personas(dni,nombre)VALUES('55555555E','Juan Manuel LÛpez Amaya');
-INSERT INTO futbol_personas(dni,nombre)VALUES('66666666F','Iv·n Gonz·lez Gonz·lez');
-INSERT INTO futbol_personas(dni,nombre)VALUES('77777777G','Jorge Figueroa V·zquez');
+INSERT INTO Futbol_Personas (dni,nombre)VALUES ('11111111A','David P√©rez Pallas');
+INSERT INTO futbol_personas(dni,nombre)VALUES('22222222B','Alexandre Alem√°n P√©rez');
+INSERT INTO futbol_personas(dni,nombre)VALUES('33333333C',' Mois√©s Mateo Monta√±√©s');
+INSERT INTO futbol_personas(dni,nombre)VALUES('44444444D','Adri√°n D√≠az Gonz√°lez');
+INSERT INTO futbol_personas(dni,nombre)VALUES('55555555E','Juan Manuel L√≥pez Amaya');
+INSERT INTO futbol_personas(dni,nombre)VALUES('66666666F','Iv√°n Gonz√°lez Gonz√°lez');
+INSERT INTO futbol_personas(dni,nombre)VALUES('77777777G','Jorge Figueroa V√°zquez');
 INSERT INTO futbol_personas(dni,nombre)VALUES('11111110A ','Cristiano Ronaldo');
 INSERT INTO futbol_personas(dni,nombre)VALUES('22222221B','Achraf Hakimi');
 INSERT INTO futbol_personas(dni,nombre)VALUES('33333332C','Carvajal');
-INSERT INTO futbol_personas(dni,nombre)VALUES('44444443D','PiquÈ');
+INSERT INTO futbol_personas(dni,nombre)VALUES('44444443D','Piqu√©');
 INSERT INTO futbol_personas(dni,nombre)VALUES('55555554E',' Arda Turan');
 INSERT INTO futbol_personas(dni,nombre)VALUES('66666665F','Lucas');
 INSERT INTO futbol_personas(dni,nombre)VALUES('77777779G','Moya');
 INSERT INTO futbol_personas(dni,nombre)VALUES('01111110A','Zinedine Zidane');
-INSERT INTO futbol_personas(dni,nombre)VALUES('02222221B','Luis Enrique Martinez GarcÌa');
+INSERT INTO futbol_personas(dni,nombre)VALUES('02222221B','Luis Enrique Martinez Garc√≠a');
 INSERT INTO futbol_personas(dni,nombre)VALUES('03333332C','Diego Simeone');
 
 
@@ -180,7 +180,7 @@ SELECT dni,dorsal,demarcacion,nifequipo FROM Futbol_Jugadores;
 
 INSERT INTO Futbol_Equipos(nif,nombre,presupuesto,dniEntrenador)VALUES('B84030576','Real Madrid C.F.','453,000','01111110A');
 INSERT INTO Futbol_Equipos(nif,nombre,presupuesto,dniEntrenador)VALUES('G8266298','F.C. Barcelona','157,000','02222221B');
-INSERT INTO Futbol_Equipos(nif,nombre,presupuesto,dniEntrenador)VALUES('A80373764','AtlÈtico de Madrid','140,000','03333332C');
+INSERT INTO Futbol_Equipos(nif,nombre,presupuesto,dniEntrenador)VALUES('A80373764','Atl√©tico de Madrid','140,000','03333332C');
 
 
 SELECT nif,nombre,presupuesto,dniEntrenador FROM Futbol_Equipos ;
